@@ -63,10 +63,10 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ cpu_perc, "^c#f22c40^ CPU  %s%% ^c#bbbbbb^| ", NULL	      },
-	{ ram_perc, "^c#d5911a^RAM  %s%% ^c#bbbbbb^| ", NULL	      },
-	{ run_command, "^c#5ab738^ %4s ^c#bbbbbb^| ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
-	{ datetime, "^c#407ee7^%s ^c#bbbbbb^| ",           " %a %b %d,  %r" },
-	{ battery_state, "^c#6666ea^ %s",	"BAT0" },
-	{ battery_perc, "^c#6666ea^%s%% ",	"BAT0" },
+	{ cpu_perc, "^c#cc342b^ CPU  %s%% ^c#bbbbbb^| ", NULL	      },
+	{ ram_perc, "^c#fba922^RAM  %s%% ^c#bbbbbb^| ", NULL	      },
+	{ run_command, "^c#198844^ %4s ^c#bbbbbb^| ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
+	{ datetime, "^c#3971ed^%s ^c#bbbbbb^| ",           " %a %b %d,  %r" },
+	{ battery_state, "^c#a36ac7^ %s",	"BAT0" },
+	{ battery_perc, "^c#a36ac7^%s%% ",	"BAT0" },
 };
